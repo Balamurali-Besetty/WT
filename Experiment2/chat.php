@@ -3,7 +3,7 @@ session_start();
 $host='localhost';
 $username = 'root';
 $password = '';
-$dbname='kaushik';
+$dbname='facebook';
 $conn=mysqli_connect($host,$username,$password,$dbname);
 ?>
 <!DOCTYPE html>
