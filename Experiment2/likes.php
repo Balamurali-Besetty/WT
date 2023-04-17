@@ -6,7 +6,7 @@ $fl=$_POST["id"];
 $host='localhost';
 $username = 'root';
 $password = '';
-$dbname='kaushik';
+$dbname='facebook';
 $conn=mysqli_connect($host,$username,$password,$dbname);
 $ct=mysqli_num_rows(mysqli_query($conn,"SELECT * from likes WHERE file='$fl' AND user IS NOT NULL"));
 $tempi=mysqli_num_rows(mysqli_query($conn,"SELECT * from likes WHERE file='$fl' AND user='$us'"));
