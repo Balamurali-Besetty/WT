@@ -166,7 +166,7 @@ li img {
                     $host='localhost';
                     $username = 'root';
                     $password = '';
-                    $dbname='kaushik';
+                    $dbname='facebook';
                     $conn=mysqli_connect($host,$username,$password,$dbname);
                     $rows=mysqli_query($conn,"SELECT * from likes GROUP BY file ORDER BY max(like_cnt) DESC;");
                     ?>
