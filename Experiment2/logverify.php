@@ -5,7 +5,7 @@ $pass=$_POST["pwd"];
 $host='localhost';
 $username = 'root';
 $password = '';
-$dbname='kaushik';
+$dbname='facebook';
 $conn=mysqli_connect($host,$username,$password,$dbname);
 $sql="SELECT Name FROM registrations WHERE Email='$id' AND Password='$pass'";
 $upload=mysqli_query($conn,$sql);
