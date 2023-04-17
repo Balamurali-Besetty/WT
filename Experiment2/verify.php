@@ -8,7 +8,7 @@ $pass=$_POST["pwd"];
 $host='localhost';
 $username = 'root';
 $password = '';
-$dbname='kaushik';
+$dbname='facebook';
 $flag=0;
 $conn=mysqli_connect($host,$username,$password,$dbname);
 if($conn)
