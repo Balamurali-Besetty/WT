@@ -176,7 +176,7 @@ if ($uploadOk == 0) {
     $host='localhost';
     $username = 'root';
     $password = '';
-    $dbname='kaushik';
+    $dbname='facebook';
     $flag=0;
     $conn=mysqli_connect($host,$username,$password,$dbname);
     if($conn)
@@ -211,7 +211,7 @@ if ($uploadOk == 0) {
         $host='localhost';
         $username = 'root';
         $password = '';
-        $dbname='kaushik';
+        $dbname='facebook';
         $conn=mysqli_connect($host,$username,$password,$dbname);
         $rows=mysqli_query($conn,"SELECT * from images WHERE gmail='$temp'");
         while($row=mysqli_fetch_array($rows))
@@ -237,7 +237,7 @@ if ($uploadOk == 0) {
                 $host='localhost';
                 $username = 'root';
                 $password = '';
-                $dbname='kaushik';
+                $dbname='facebook';
                 $flag=0;
                 $conn=mysqli_connect($host,$username,$password,$dbname);
                 if($conn)
