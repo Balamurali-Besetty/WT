@@ -7,7 +7,7 @@ $image_name=$_POST["id"];
 $host='localhost';
 $username = 'root';
 $password = '';
-$dbname='kaushik';
+$dbname='facebook';
 $conn=mysqli_connect($host,$username,$password,$dbname);
 if($c=="")
 {
