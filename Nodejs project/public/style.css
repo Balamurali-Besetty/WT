@@ -1,0 +1,56 @@
+/* Apply some basic styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #fbf5f5;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the heading */
+  .heading {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the form */
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table cells */
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style the select dropdown */
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

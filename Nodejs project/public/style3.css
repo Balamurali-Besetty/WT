@@ -1,0 +1,77 @@
+/* Apply some basic styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #fbfafa;
+    color: #0b0101;
+    padding: 10px;
+  }
+  
+  /* Style the heading */
+  .heading {
+    color: #090505;
+    text-decoration: none;
+  }
+  
+  /* Style the form */
+  form {
+    margin: 180 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form heading */
+  form h2 {
+    margin-top: 0;
+  }
+  
+  /* Style the form groups */
+  .admin-form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form labels */
+  .admin-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the form inputs */
+  .admin-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the form submit button */
+  .admin-submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style the form link */
+  form p a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style the form link on hover */
+  form p a:hover {
+    text-decoration: underline;
+  }
+  
