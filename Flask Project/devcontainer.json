@@ -1,7 +1,0 @@
-{
-    "name": "Python Development Environment",
-    "dockerFile": "Dockerfile",
-    "extensions": [
-        "ms-python.python"
-    ]
-}
